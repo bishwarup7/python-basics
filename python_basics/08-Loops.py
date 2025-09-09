@@ -86,7 +86,7 @@ for i in range(6):
 for x in range(3):
     pass
 '''
-
+'''
 #for-else/while-else:
 
 #Whether a number is prime (for)
@@ -125,6 +125,27 @@ for r in range(1, rows+1):
     print('*'*r)
 
 
+'''
 
 
 
+#practies:
+#01--factorial :count n!
+
+n= int(input("Enter n: "))
+
+fact = 1
+for i in range(1, n+1):
+    fact *= i
+print(f"{n}!=,{fact}")
+'''
+
+
+o= int(input("Enter o: "))
+fact =1
+count =1
+while count<=o:
+    fact *=count
+    count +=1
+print(f"{o}!=, {fact}")
+'''
